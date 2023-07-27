@@ -9,8 +9,9 @@ import java.util.List;
 public interface UserMapper {
     List<UserDto> getUserList();
     void insertUser(UserDto userDto);
-    UserDto getUserByEmail(String email);
-    UserDto getUserById(Long id);
-    void updateUser(UserDto userDto);
-    void deleteUser(Long id);
+    UserDto getUserById(String id);
+
+    UserDto getUserByCountId(Long countid);
+
+
 }

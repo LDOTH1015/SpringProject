@@ -3,6 +3,6 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.spring.teamproject.mapper.TestMapper">
     <select id="selectTest" resultType="TestDto">
-        SELECT 'Test' AS name
+        SELECT 'testname' AS name
     </select>
 </mapper>
